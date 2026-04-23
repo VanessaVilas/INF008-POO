@@ -1,0 +1,49 @@
+/********************************************************************************************************************************************
+1) 1 Aluno possui 1 professor orientador
+
+class Aluno {
+    private Professor advisor = null;
+    
+    public Aluno() {
+    }
+    public void setAdvisor(Professor advisor) {
+        this.advisor = advisor;
+    }
+}
+class Professor {
+}
+
+MAIN:
+    Professor manoel = new Professor();
+    Aluno agatha = new Aluno();
+    ...
+    agatha.setAdvisor(manoel);
+    ...
+    // agatha.setAdvisor(null);
+    Aluno valder = new Aluno();
+    valder.setAdvidor(manoel);
+
+2) 1 Turma possui vários alunos
+
+class Section
+{
+    private Vector<Student> students = new Vector<Student>();
+    
+//    public void setStudents(Vector<Student> students) {
+//        this.students = students;
+//    }
+    public void addStudent(Student student) {
+        this.students.add(student);
+    }
+    public void removeStudent(Student student) {
+        this.students.remove(student);
+    }
+    public void removeAllStudents() {
+        this.students.clear();
+    }
+}
+
+class Student
+{
+}
+********************************************************************************************************************************************/

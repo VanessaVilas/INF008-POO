@@ -1,0 +1,30 @@
+/********************************************************************************************************************************************
+1 carro contém 1 motor
+1 carro contém 4..* pneus
+
+class Car {
+    private Engine engine;
+    private Vector<Wheel> wheels = new Vector<Wheel>();
+    
+    public Car {
+        engine = new Engine();
+        wheels.add(new Wheel());
+        wheels.add(new Wheel());
+        wheels.add(new Wheel());
+        wheels.add(new Wheel());
+    }
+    public ~Car() { // Somente no C++
+        delete engine;
+        delete wheels.get(0);
+        delete wheels.get(1);
+        delete wheels.get(2);
+        delete wheels.get(3);
+    }
+}
+
+class Engine {
+}
+
+class Wheel {
+}
+********************************************************************************************************************************************/
