@@ -1,6 +1,6 @@
 class Rectangle extends Shape {
-    public double base;
-    public double height;
+    private double base;
+    private double height;
 
     public Rectangle (double base, double height) {
         this.base = base;

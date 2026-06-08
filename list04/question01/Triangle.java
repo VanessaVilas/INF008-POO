@@ -1,7 +1,7 @@
 class Triangle extends Shape {
-    public double side1;
-    public double side2;
-    public double side3;
+    private double side1;
+    private double side2;
+    private double side3;
 
     public Triangle (double side1, double side2, double side3) {
         this.side1 = side1;
